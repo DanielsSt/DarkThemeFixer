@@ -9,4 +9,6 @@ Fixes added so far:
 
 Tested on CM13 using DeepDarknes Theme
 
-
+# Installation
+Install from http://repo.xposed.info/module/tk.navideju.darkthemefixer
+Reboot :)
