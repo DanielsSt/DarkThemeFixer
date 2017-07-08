@@ -5,7 +5,8 @@ Fixes added so far:
 * Messaging com.google.android.apps.messaging (white on white when typing text)
 * Google Play Store com.android.vending (white on white text on multiple places)
 * Google Chrome com.android.chrome (white on white location bar)
-* Google Docs com.google.android.apps.docs.editors.docs (black on black comments)
+* WhatsApp com.whatsapp (white on white text when using @ mention)
+
 
 Tested on CM13 using DeepDarknes Theme
 
