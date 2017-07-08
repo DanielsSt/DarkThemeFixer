@@ -21,23 +21,6 @@
       {
         "attributes": [
           {
-            "changeTextColor": true,
-            "identifier": "comment_text",
-            "identifierType": "id",
-            "newColor": "#FFFFFF"
-          }
-        ],
-        "name": "discussion_comment_container",
-        "type": "layout"
-      }
-    ],
-    "name": "com.google.android.apps.docs.editors.docs"
-  },
-  {
-    "layouts": [
-      {
-        "attributes": [
-          {
             "changeTextColor": false,
             "identifier": "location_bar",
             "identifierType": "id",
