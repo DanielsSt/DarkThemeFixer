@@ -109,16 +109,16 @@
       {
         "attributes": [
           {
-            "changeTextColor": true,
-            "identifier": "body",
+            "changeTextColor": false,
+            "identifier": "list",
             "identifierType": "id",
-            "newColor": "#FFFFFF"
+            "newColor": "#000000"
           }
         ],
-        "name": "compose_body",
+        "name": "mentions_list",
         "type": "layout"
       }
     ],
-    "name": "com.google.android.gm"
+    "name": "com.whatsapp"
   }
 ]
