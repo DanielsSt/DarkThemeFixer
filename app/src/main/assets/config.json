@@ -88,6 +88,18 @@
         ],
         "name": "flat_card_listing",
         "type": "layout"
+      },
+      {
+        "attributes": [
+          {
+            "changeTextColor": false,
+            "identifier": "review_content",
+            "identifierType": "id",
+            "newColor": "#000000"
+          }
+        ],
+        "name": "review_item",
+        "type": "layout"
       }
     ],
     "name": "com.android.vending"
@@ -97,13 +109,13 @@
       {
         "attributes": [
           {
-            "changeTextColor": false,
-            "identifier": "content",
+            "changeTextColor": true,
+            "identifier": "body",
             "identifierType": "id",
             "newColor": "#FFFFFF"
           }
         ],
-        "name": "compose",
+        "name": "compose_body",
         "type": "layout"
       }
     ],
