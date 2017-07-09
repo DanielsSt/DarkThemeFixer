@@ -15,6 +15,6 @@ Tested on CM13 using DeepDarkness Theme
 Install from http://repo.xposed.info/module/tk.navideju.darkthemefixer
 Then reboot :)
 
-#Planned features
+# Planned features
 * Update UI element colors without installing new version and rebooting (by getting element list from hosted source)
 * Ability to toggle fixes
