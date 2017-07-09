@@ -38,55 +38,13 @@
       {
         "attributes": [
           {
-            "changeTextColor": true,
-            "identifier": "li_title",
+            "changeTextColor": false,
+            "identifier": "flat_card_cluster_container",
             "identifierType": "id",
             "newColor": "#000000"
-          },
-          {
-            "changeTextColor": true,
-            "identifier": "li_subtitle",
-            "identifierType": "id",
-            "newColor": "#CCCCCC"
-          },
-          {
-            "changeTextColor": true,
-            "identifier": "li_snippet_text",
-            "identifierType": "id",
-            "newColor": "#CCCCCC"
           }
         ],
-        "name": "flat_card_small",
-        "type": "layout"
-      },
-      {
-        "attributes": [
-          {
-            "changeTextColor": true,
-            "identifier": "li_title",
-            "identifierType": "id",
-            "newColor": "#000000"
-          },
-          {
-            "changeTextColor": true,
-            "identifier": "li_subtitle",
-            "identifierType": "id",
-            "newColor": "#CCCCCC"
-          },
-          {
-            "changeTextColor": true,
-            "identifier": "li_subtitle2",
-            "identifierType": "id",
-            "newColor": "#CCCCCC"
-          },
-          {
-            "changeTextColor": true,
-            "identifier": "li_snippet_text",
-            "identifierType": "id",
-            "newColor": "#CCCCCC"
-          }
-        ],
-        "name": "flat_card_listing",
+        "name": "flat_card_cluster",
         "type": "layout"
       },
       {
@@ -99,6 +57,18 @@
           }
         ],
         "name": "review_item",
+        "type": "layout"
+      },
+      {
+        "attributes": [
+          {
+            "changeTextColor": false,
+            "identifier": "questions_widget",
+            "identifierType": "id",
+            "newColor": "#000000"
+          }
+        ],
+        "name": "structured_review_module",
         "type": "layout"
       }
     ],
@@ -120,5 +90,22 @@
       }
     ],
     "name": "com.whatsapp"
+  },
+  {
+    "layouts": [
+      {
+        "attributes": [
+          {
+            "changeTextColor": false,
+            "identifier": "wc_body",
+            "identifierType": "id",
+            "newColor": "#FFFFFF"
+          }
+        ],
+        "name": "wc_compose_body",
+        "type": "layout"
+      }
+    ],
+    "name": "com.google.android.gm"
   }
 ]
