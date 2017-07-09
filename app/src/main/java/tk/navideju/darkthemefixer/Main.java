@@ -27,7 +27,6 @@ public class Main implements IXposedHookZygoteInit, IXposedHookInitPackageResour
     public void handleInitPackageResources(final XC_InitPackageResources.InitPackageResourcesParam initPackageResourcesParam) throws Throwable {
         final PackageForChange pkg = configDao.getByName(initPackageResourcesParam.packageName);
         if(pkg != null){
-            XposedBridge.log(LOG_PRE + "Adding fixes for " + initPackageResourcesParam.packageName);
             for(final LayoutForChange layout : pkg.getLayouts()){
                 initPackageResourcesParam.res.hookLayout(initPackageResourcesParam.packageName, layout.getType(), layout.getName(), new XC_LayoutInflated() {
                     @Override
