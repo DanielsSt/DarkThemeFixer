@@ -99,7 +99,7 @@
             "changeTextColor": false,
             "identifier": "wc_body",
             "identifierType": "id",
-            "newColor": "#FFFFFF"
+            "newColor": "#FF0000"
           }
         ],
         "name": "wc_compose_body",
@@ -107,5 +107,61 @@
       }
     ],
     "name": "com.google.android.gm"
+  },
+  {
+    "layouts": [
+     /* {
+        "attributes": [
+          {
+            "changeTextColor": true,
+            "identifier": "icon",
+            "identifierType": "id",
+            "newColor": "#FFFFFF"
+          }
+        ],
+        "name": "all_apps_icon",
+        "type": "layout"
+      },
+      {
+        "attributes": [
+          {
+            "changeTextColor": false,
+            "identifier": "main_content",
+            "identifierType": "id",
+            "newColor": "#000000"
+          }
+        ],
+        "name": "all_apps",
+        "type": "layout"
+      }*/
+
+      {
+        "attributes": [
+          {
+            "changeTextColor": true,
+            "identifier": "bubble_text",
+            "identifierType": "id",
+            "newColor": "#000000"
+          }
+        ],
+        "name": "system_shortcut",
+        "type": "layout"
+      },
+      {
+        "attributes": [
+          {
+            "changeTextColor": true,
+            "identifier": "bubble_text",
+            "identifierType": "id",
+            "newColor": "#000000"
+          }
+        ],
+        "name": "deep_shortcut",
+        "type": "layout"
+      }
+
+
+    ],
+    "name": "com.google.android.apps.nexuslauncher"
   }
 ]
