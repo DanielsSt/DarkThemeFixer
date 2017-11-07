@@ -1,6 +1,8 @@
 package tk.navideju.darkthemefixer.domain;
 
-public class AttributeForChange {
+import java.util.List;
+
+public class AttributeForChange implements ThingForChange {
     private String identifier;
     private String identifierType;
     private Boolean changeTextColor;
@@ -36,5 +38,20 @@ public class AttributeForChange {
 
     public void setNewColor(String newColor) {
         this.newColor = newColor;
+    }
+
+    @Override
+    public String getName() {
+        return this.identifier;
+    }
+
+    @Override
+    public List getList() {
+        return null;
+    }
+
+    @Override
+    public String getThingType() {
+        return "attribute";
     }
 }

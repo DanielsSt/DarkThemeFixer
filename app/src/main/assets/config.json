@@ -99,7 +99,7 @@
             "changeTextColor": false,
             "identifier": "wc_body",
             "identifierType": "id",
-            "newColor": "#FF0000"
+            "newColor": "#FFFFFF"
           }
         ],
         "name": "wc_compose_body",
@@ -110,31 +110,6 @@
   },
   {
     "layouts": [
-     /* {
-        "attributes": [
-          {
-            "changeTextColor": true,
-            "identifier": "icon",
-            "identifierType": "id",
-            "newColor": "#FFFFFF"
-          }
-        ],
-        "name": "all_apps_icon",
-        "type": "layout"
-      },
-      {
-        "attributes": [
-          {
-            "changeTextColor": false,
-            "identifier": "main_content",
-            "identifierType": "id",
-            "newColor": "#000000"
-          }
-        ],
-        "name": "all_apps",
-        "type": "layout"
-      }*/
-
       {
         "attributes": [
           {
