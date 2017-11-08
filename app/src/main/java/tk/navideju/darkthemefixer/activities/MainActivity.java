@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.os.Build;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
@@ -24,6 +25,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.File;
+import java.util.ArrayList;
 import java.util.List;
 
 import tk.navideju.darkthemefixer.R;
@@ -44,9 +47,29 @@ public class MainActivity extends PreferenceActivity {
         super.onCreate(savedInstanceState);
         getListView();
         prefManager = getPreferenceManager();
-//        prefManager.setStorageDeviceProtected();
-        prefManager.setSharedPreferencesMode(Context.MODE_WORLD_READABLE);
         prefManager.setSharedPreferencesName("fix_states");
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            List<File> prefs = new ArrayList<>();
+            /*
+                strange, if doing this only to pref xml, does not seem to work...
+                hmmmm...
+             */
+            prefs.add(new File(getApplicationInfo().dataDir));
+            prefs.add(new File(getApplicationInfo().dataDir + "/shared_prefs"));
+            prefs.add(new File(getApplicationInfo().dataDir + "/shared_prefs/" + prefManager.getSharedPreferencesName() + ".xml"));
+
+            for (File file : prefs) {
+                if(file.exists()) {
+                    file.setReadable(true, false);
+                    file.setExecutable(true, false);
+                }
+            }
+
+        } else {
+            prefManager.setSharedPreferencesMode(MODE_WORLD_READABLE);
+        }
+
         Intent intent = getIntent();
         selectedPackage = intent.getStringExtra("selectedPackage");
         selectedLayout = intent.getStringExtra("selectedLayout");
