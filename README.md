@@ -8,16 +8,18 @@ Fixes added so far:
 * Gmail com.google.android.gm (black on black when creating message)
 * WhatsApp com.whatsapp (white on white text when using @ mention)
 * Pixel launcher (and most of its forks) com.google.android.apps.nexuslauncher (white on white text on bubble menu)
+* 9GAG com.ninegag.android.app (night mode made trully black) (if not using night mode, just turn of this fix)
 
-#If some or any of fixes are disturbing - you can disable them in UI
+# If some or any of fixes are disturbing - you can disable them in UI
 Tho' restart (at least force stop of chosen app) is required for changes to take effect
 
-Tested on CM13 using DeepDarkness Theme
+Testing with Ressurection Remix 5.8.3 (Android 7.1.2) with Substratum themes AospUI (Blaxk) and Flux
 
 # Installation
 Install from http://repo.xposed.info/module/tk.navideju.darkthemefixer
+
 Then reboot :)
 
 # Planned features
 * Update UI element colors without installing new version and rebooting (by getting element list from hosted source)
-* Ability to toggle fixes
+* ~~Ability to toggle fixes~~ (Done)
