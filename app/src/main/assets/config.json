@@ -138,5 +138,22 @@
 
     ],
     "name": "com.google.android.apps.nexuslauncher"
+  },
+  {
+    "layouts": [
+      {
+        "attributes": [
+          {
+            "changeTextColor": false,
+            "identifier": "width_wrapper",
+            "identifierType": "id",
+            "newColor": "#000000"
+          }
+        ],
+        "name": "post_item_v3_universal_image_view",
+        "type": "layout"
+      }
+    ],
+    "name": "com.ninegag.android.app"
   }
 ]

@@ -7,8 +7,8 @@ android {
         applicationId "tk.navideju.darkthemefixer"
         minSdkVersion 15
         targetSdkVersion 25
-        versionCode 121
-        versionName "1.2.1"
+        versionCode 122
+        versionName "1.2.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
