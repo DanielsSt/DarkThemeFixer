@@ -5,6 +5,7 @@ import java.util.List;
 public class PackageForChange implements ThingForChange {
     private String name;
     private List<LayoutForChange> layouts;
+    private String description;
 
     @Override
     public String getName() {
@@ -40,5 +41,15 @@ public class PackageForChange implements ThingForChange {
             }
         }
         return null;
+    }
+
+    @Override
+    public String getDescription() {
+        return description;
+    }
+
+    @Override
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

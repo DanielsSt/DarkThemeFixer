@@ -26,5 +26,12 @@
         android:textColor="@color/secondary_text_material_light"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="TextView" />
+
 
 </LinearLayout>

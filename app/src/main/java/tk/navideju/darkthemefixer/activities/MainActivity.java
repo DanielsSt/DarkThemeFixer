@@ -138,6 +138,8 @@ public class MainActivity extends PreferenceActivity {
 
             if(thing instanceof ThingForChange){
                 ThingForChange tmp = (ThingForChange) thing;
+                TextView description = (TextView) row.findViewById(R.id.description);
+                description.setText(tmp.getDescription());
 
                 if(tmp.getThingType().equals("attribute")){
                     CheckBox cb = (CheckBox) row.findViewById(R.id.checkBox);

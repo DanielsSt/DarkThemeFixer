@@ -7,6 +7,7 @@ public class AttributeForChange implements ThingForChange {
     private String identifierType;
     private Boolean changeTextColor;
     private String newColor;
+    private String description;
 
     public String getIdentifier() {
         return identifier;
@@ -53,5 +54,15 @@ public class AttributeForChange implements ThingForChange {
     @Override
     public String getThingType() {
         return "attribute";
+    }
+
+    @Override
+    public String getDescription() {
+        return description;
+    }
+
+    @Override
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

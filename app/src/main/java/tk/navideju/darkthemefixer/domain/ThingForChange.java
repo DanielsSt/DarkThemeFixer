@@ -6,4 +6,6 @@ public interface ThingForChange <T> {
     String getName();
     List<T> getList();
     String getThingType();
+    String getDescription();
+    void setDescription(String description);
 }

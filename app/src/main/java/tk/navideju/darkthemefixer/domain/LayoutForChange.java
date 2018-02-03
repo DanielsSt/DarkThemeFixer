@@ -6,6 +6,7 @@ public class LayoutForChange implements ThingForChange {
     private String type;
     private String name;
     private List<AttributeForChange> attributes;
+    private String description;
 
     public String getType() {
         return type;
@@ -40,5 +41,15 @@ public class LayoutForChange implements ThingForChange {
 
     public void setAttributes(List<AttributeForChange> attributes) {
         this.attributes = attributes;
+    }
+
+    @Override
+    public String getDescription() {
+        return description;
+    }
+
+    @Override
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

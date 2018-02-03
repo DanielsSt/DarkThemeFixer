@@ -7,14 +7,17 @@
             "changeTextColor": true,
             "identifier": "compose_message_text",
             "identifierType": "id",
-            "newColor": "#000000"
+            "newColor": "#000000",
+            "description": "Forces black letters on message input field"
           }
         ],
         "name": "compose_message_view",
-        "type": "layout"
+        "type": "layout",
+        "description": "Here lays message input"
       }
     ],
-    "name": "com.google.android.apps.messaging"
+    "name": "com.google.android.apps.messaging",
+    "description": "Messages SMS App"
   },
   {
     "layouts": [
@@ -24,14 +27,17 @@
             "changeTextColor": false,
             "identifier": "location_bar",
             "identifierType": "id",
-            "newColor": "#000000"
+            "newColor": "#000000",
+            "description": "Forces black background for Chrome location bar"
           }
         ],
         "name": "toolbar_phone",
-        "type": "layout"
+        "type": "layout",
+        "description": "Here lays location bar"
       }
     ],
-    "name": "com.android.chrome"
+    "name": "com.android.chrome",
+    "description": "Google Chrome"
   },
   {
     "layouts": [
@@ -41,11 +47,13 @@
             "changeTextColor": false,
             "identifier": "flat_card_cluster_container",
             "identifierType": "id",
-            "newColor": "#000000"
+            "newColor": "#000000",
+            "description": "Forces black background for App store tiles"
           }
         ],
         "name": "flat_card_cluster",
-        "type": "layout"
+        "type": "layout",
+        "description": "Here lays tiles, if I remeber right"
       },
       {
         "attributes": [
@@ -53,11 +61,13 @@
             "changeTextColor": false,
             "identifier": "review_content",
             "identifierType": "id",
-            "newColor": "#000000"
+            "newColor": "#000000",
+            "description": "Forces black background for app review part"
           }
         ],
         "name": "review_item",
-        "type": "layout"
+        "type": "layout",
+        "description": "Here lays review block"
       },
       {
         "attributes": [
@@ -65,14 +75,17 @@
             "changeTextColor": false,
             "identifier": "questions_widget",
             "identifierType": "id",
-            "newColor": "#000000"
+            "newColor": "#000000",
+            "description": "Do not remeber :D, I guess something about reviews"
           }
         ],
         "name": "structured_review_module",
-        "type": "layout"
+        "type": "layout",
+        "description": "Something about reviews"
       }
     ],
-    "name": "com.android.vending"
+    "name": "com.android.vending",
+    "description": "Play Store"
   },
   {
     "layouts": [
@@ -82,14 +95,17 @@
             "changeTextColor": false,
             "identifier": "list",
             "identifierType": "id",
-            "newColor": "#000000"
+            "newColor": "#000000",
+            "description": "@ mention list, force black background"
           }
         ],
         "name": "mentions_list",
-        "type": "layout"
+        "type": "layout",
+        "description": "Here lays @ mention list"
       }
     ],
-    "name": "com.whatsapp"
+    "name": "com.whatsapp",
+    "description": "WhatsApp, pretty obvious isn't it?"
   },
   {
     "layouts": [
@@ -99,14 +115,17 @@
             "changeTextColor": false,
             "identifier": "wc_body",
             "identifierType": "id",
-            "newColor": "#FFFFFF"
+            "newColor": "#FFFFFF",
+            "description": "Force white background for message input"
           }
         ],
         "name": "wc_compose_body",
-        "type": "layout"
+        "type": "layout",
+        "description": "Here lays compose message view"
       }
     ],
-    "name": "com.google.android.gm"
+    "name": "com.google.android.gm",
+    "description": "Gmail"
   },
   {
     "layouts": [
@@ -116,11 +135,13 @@
             "changeTextColor": true,
             "identifier": "bubble_text",
             "identifierType": "id",
-            "newColor": "#000000"
+            "newColor": "#000000",
+            "description": "Black letters for bubble menu"
           }
         ],
         "name": "system_shortcut",
-        "type": "layout"
+        "type": "layout",
+        "description": "Bubble menu, system choices"
       },
       {
         "attributes": [
@@ -128,16 +149,19 @@
             "changeTextColor": true,
             "identifier": "bubble_text",
             "identifierType": "id",
-            "newColor": "#000000"
+            "newColor": "#000000",
+            "description": "Black letters for bubble menu"
           }
         ],
         "name": "deep_shortcut",
-        "type": "layout"
+        "type": "layout",
+        "description": "Bubble menu, app specific choices"
       }
 
 
     ],
-    "name": "com.google.android.apps.nexuslauncher"
+    "name": "com.google.android.apps.nexuslauncher",
+    "description": "Pixel launcher and most of its forks"
   },
   {
     "layouts": [
@@ -147,13 +171,50 @@
             "changeTextColor": false,
             "identifier": "width_wrapper",
             "identifierType": "id",
-            "newColor": "#000000"
+            "newColor": "#000000",
+            "description": "Background of 9gag app, from dark grey (nightmode) to black"
           }
         ],
         "name": "post_item_v3_universal_image_view",
-        "type": "layout"
+        "type": "layout",
+        "description": "Background of 9gag app, or more specific - post"
       }
     ],
-    "name": "com.ninegag.android.app"
+    "name": "com.ninegag.android.app",
+    "description": "9gag"
+  },
+  {
+    "layouts": [
+      {
+        "attributes": [
+          {
+            "changeTextColor": false,
+            "identifier": "function_bar",
+            "identifierType": "id",
+            "newColor": "#EEEEEE",
+            "description": "Function bar, lighter background"
+          }
+        ],
+        "name": "function_bar",
+        "type": "layout",
+        "description": "Function bar"
+      },
+      {
+        "attributes": [
+          {
+            "changeTextColor": true,
+            "identifier": "child_title",
+            "identifierType": "id",
+            "newColor": "#EEEEEE",
+            "description": "Lighter oldschool smiley color"
+          }
+        ],
+        "name": "layout_view_emoticon_child_content",
+        "type": "layout",
+        "description": "Oldscool smiley section"
+      }
+    ],
+    "name": "com.cootek.smartinputv5",
+    "description": "TouchPal keyboard"
   }
 ]
